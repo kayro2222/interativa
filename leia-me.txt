@@ -1,0 +1,21 @@
+O projeto foi criado dentro de uma pasta no servidor local.
+Portanto, configure a rota na index do servidor para a rota '/interativa/'
+
+No arquivo 'database.sql' encontra-se as tabelas e banco a serem criadas.
+Rode os comandos no seu banco de dados.
+Obs.: Verifique a classe 'conexao.php' para configurar o seu acesso ao database.
+Obs².: No arquivo 'database.sql' possui uma query para inserir o usuário. O usuário que está há ser inserido, é: 'interativa' com a senha '123456'. Note que a senha está criptografada com o método 'sha1(str)'.
+
+
+Como estou entregando o projeto:
+
+1. Na index, possui uma listagem das receitas que pertencem as categorias;
+2. Acesse a área administrativa efetuando o login pelo botão "Login" da index;
+3. Utilize o usuário 'interativa' e senha '123456' para logar (caso você não tenha alterado-os);
+4. Na área administrativa, existe uma barra de navegação linkando para os 2 CRUDs internos;
+5. A tabela de receita é relacionada à tabela de categoria, portanto, você precisará cadastrar pelo menos uma categoria para cadastrar alguma receita;
+6. Utilizei metodologia OO com PDO para as conexões com o banco de dados. Utilizando 'binds' para evitar SQL Injection nos CRUDs e afins;
+
+O que faltou no projeto:
+
+A criação do relacionamento entre a receita e a descrição, para demonstração de um descritivo para o usuário;

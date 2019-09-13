@@ -1,0 +1,27 @@
+.filter{
+	background-color: #93979b;
+}
+.container-fluid{
+	padding: 20px 0px 20px 0px;
+}
+.title{
+	text-align: center;
+	color: #FFF;
+}
+#log-section{
+	height: 100vh;
+    overflow: auto;
+}
+.vcenter {
+    padding-top: 30vh;
+}
+.filter-login{
+	border-radius: 10px;
+	padding: 20px;
+}
+.pad{
+	padding: 0 0 20px 0;
+}
+.btn-form{
+	width: 40%;
+}
